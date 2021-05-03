@@ -1,0 +1,680 @@
+@charset "UTF-8";
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+    background-color: #3a0ca3;
+    background-image: url(file:///Macintosh%20HD/Users/year2/Desktop/khangpham_b00126465_website/images/bgimage.jpg);
+    color: #FFFFFF;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: noticia-text;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*Homepage*/
+
+.home_images{
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    margin-top: 16px;
+    width: 100%;
+    height: 20%;
+    background-image: url(../images/disneycastle.jpeg);
+    background-repeat: no-repeat;
+    background-size: 93rem auto;
+    background-position: 30% 35%;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.bottom_row {
+	margin-bottom: 10%;
+}
+
+.bottom_row2 {
+	margin-bottom: 5%;
+}
+
+.col-lg-6 {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+.col-lg-2 {
+    text-align: center;	
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.purple_background {
+    background-color: #733CF0;
+}
+
+.movie_posters {
+	width: 175px;
+	height: auto;
+}
+
+/*disneyland and world*/
+
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #733CF0;
+}
+
+.col-lg-4 {
+	text-align: center;
+    background-color: #ffffff;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+iframe {
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    display: block;
+	width: 1000px;
+	height: 500px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    height: 148px;
+    position: fixed;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*About page*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+}
+
+.box1 { grid-area: box1; }
+
+.box2 { grid-area: box2; 
+background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: #733CF0;
+    padding-left: 20px;
+    padding-right: 20px;	
+	height: 100%;
+}
+
+.box4 {
+    grid-area: box4;
+    padding-left: 20px;
+    padding-right: 20px;	
+	height: 100%;
+}
+
+/*typography*/
+
+h1 {
+    margin-top: 28px;
+    float: none;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 12px;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+.display-4 {
+    font-weight: bold;
+}
+
+.page_titles {
+    font-size: 38px;
+}
+
+.movieheader {
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 21px;
+}
+.movies_button {
+    text-align: center;
+    margin-bottom: 45px;
+}
+p {
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #000000;
+}
+.black_text {
+    color: #000000;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.about_h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about_disney {
+    font-size: 5rem;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+.center_titles {
+    text-align: center;
+}
+.center_button {
+    text-align: center;
+}
+
+
+
+.col-md-3 {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*contact page*/
+
+fieldset {
+    border: 2px solid #000000;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+legend {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    background-color: #000000;
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+	border-radius: 25px;
+}
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+    height: 1.5rem;
+}
+textarea {
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    width: 98%;
+    min-height: 10rem;
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+label {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+	font-family: 'Open Sans', sans-serif;
+}
+select {
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+    height: 2.3rem;
+    line-height: 1.2rem;
+}
+#submit input {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    border-radius: 25px;
+    border-style: none;
+    width: 12rem;
+    font-size: 1rem;
+    height: 2.4rem;
+    background-color: #1C8EF0;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#submit {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form_img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+#grad1 {
+  height: 200px;
+  background-color: #3a0ca3; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #3a0ca3 , #AA89F5);
+}
+
+.lead {
+    margin-right: 60%;
+    text-align: left;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.white_text {
+    color: #FFFFFF;
+}
+.attractions-title {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -15px;
+}
+.btn {
+    background-color: #1C8EF0;
+    border: none;
+    border-radius: 25px;
+	margin-top: -12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+    border: none;
+    border-radius: 25px;
+    background-color: #0E7AD6;
+	margin-top: -12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.white_btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+.white_btn:hover {
+    border: none;
+    border-radius: 25px;
+    background-color: #DEDEDE;
+    color: #000000;
+    text-decoration: none;
+}
+
+.col-lg-4 {
+    text-shadow: 0px 0px;
+    background-color: #3a0ca3;
+}
+.card {
+    text-shadow: 0px 0px;
+    width: 95%;
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+.social_media_footer {
+    text-decoration: none;
+    text-shadow: 0px 0px;
+    text-align: center;
+}
+.social_media_footer2 {
+    text-align: left;
+}
+.footer_logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_icons {
+    width: 22px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.footer_shortcuts {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.walt_disney_img {
+    width: 85%;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    margin: 0 auto;
+    display: block;
+}
+.walt_quote {
+    font-size: 30px;
+    color: white;
+    font-style: italic;	
+}
+
+.quoatation_mark{
+  font-size: 300px;
+  font-family: cursive;
+  margin-bottom: -200px;
+  color: white;
+}
+
+/*Shows and movies*/
+
+.posters {
+    width: 330px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    height: auto;
+}
+.carousel_images {
+    height: 30rem;
+    display: block;
+}
+
+.col-lg-12 {
+    background-color: #FFFFFF;
+}
+
+
+/*Animation Code*/
+
+.slide-top {
+	-webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	
+}
+
+.about_content {
+	margin-top: 120px;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-5-3 15:16:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+.scale-up-tl {
+	-webkit-animation: scale-up-tl 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-tl 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+a {
+    display: inline-block;
+}
+.btn-lg {
+    font-size: 1.2rem;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-5-3 16:17:13
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-tl
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.page-headers {
+    background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.page-title {
+    text-align: center;
+    color: #733CF0;
+    font-size: 38px;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-5-3 17:2:6
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+/*media query*/
+
+@media (max-width: 600px){
+.footer_icons2 {
+    width: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "box1"
+    "box2"
+    "box3"
+	"box4";
+}
+
+.box1 { grid-area: box1; }
+
+.box2 { grid-area: box2; }
+
+.box3 { grid-area: box3; }
+	
+.box4 { grid-area: box4; }
+	
+	footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    height: 155px;
+    position: static;		
+}
+
+	.lead {
+    margin-right: 40%;
+    text-align: left;
+    font-size: medium;
+    font-weight: normal;
+		font-size: 14px;
+}
+	
+.bottom_row {
+	margin-bottom: -2%;
+}
+	
+.carousel_images {
+    height: 13rem;
+    display: block;
+}
+	
+	iframe {
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    display: block;
+	width: auto;
+	height: 500px;
+}
+	
+	.across input {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.across label {
+    display: none;
+}
+	
+}
